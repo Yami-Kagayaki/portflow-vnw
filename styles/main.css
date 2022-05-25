@@ -1,0 +1,71 @@
+:root {
+  --margin-header: 90px;
+}
+
+main {
+  margin-top: var(--margin-header);
+}
+
+.laranja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+  width: 100%;
+  height: calc(100vh - var(--margin-header));
+  background-color: aqua;
+  background-image: url('../assets/laranja-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.h1 {
+  font-size: 70px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.faleconosco {
+
+  color: white;
+  text-transform: uppercase;
+}
+
+.gallery {
+  width: 100%;
+  padding: 3%;
+}
+
+.produtos {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.obj {
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 848px) {
+  :root {
+    --margin-header: 70px;
+  }
+
+  .laranja {
+    justify-content: end;
+  }
+
+  .h1 {
+    font-size: 7vh;
+    color: white;
+  }
+}
+
+@media (max-width: 425px) {
+  :root {
+    --margin-header: 30px;
+  }
+}

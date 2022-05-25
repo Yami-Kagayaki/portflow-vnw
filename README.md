@@ -22,9 +22,9 @@ Open the index.html file.
 
 ## Built With
 
-- [HTML](https://facebook.github.io/react-native/) -
-- [CSS](https://facebook.github.io/react-native/) -
-- [JavaScript](https://facebook.github.io/react-native/) -
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Structuring
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript) - Adding functionality
 
 ## Contributing
 

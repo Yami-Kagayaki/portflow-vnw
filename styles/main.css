@@ -17,7 +17,8 @@ main {
   background-image: url('../assets/laranja-background.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .h1 {
@@ -27,7 +28,6 @@ main {
 }
 
 .faleconosco {
-
   color: white;
   text-transform: uppercase;
 }
@@ -59,6 +59,7 @@ main {
 
   .laranja {
     justify-content: end;
+    background-position: 80% center;
   }
 
   .h1 {

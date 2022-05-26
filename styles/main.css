@@ -47,7 +47,12 @@ main {
   gap: 15px;
 }
 
+.obj:hover {
+  transform: scale(1.05);
+}
+
 .obj {
+  transition: .2s;
   width: 300px;
   height: 300px;
 }

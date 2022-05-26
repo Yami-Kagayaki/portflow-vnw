@@ -10,9 +10,15 @@ footer {
 }
 
 .social-icon {
+  cursor: pointer;
+  transition: .2s;
   width: 25px;
   height: 25px;
   margin: 10px;
+}
+
+.social-icon:hover {
+  transform: scale(1.5);
 }
 
 .group-copy {
